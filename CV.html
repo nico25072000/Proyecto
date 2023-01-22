@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0d47dac46d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>MI CV</title>
+</head>
+<body>
+
+    <div class="main">
+
+         <div class="left">
+              <br>
+              <div class="mi-foto"><img src="C:\Users\nicol\Desktop\Mi CV en HTML\mi foto.jpg"></div>    
+
+              <div class="box1">
+                   <div class="heading">
+                         <p>DATOS PERSONALES</p>
+                   </div>
+                   <p class="p1"><i class="fa-solid fa-globe"></i>Pais: Argentina</p>
+                   <p class="p1"><i class="fa-solid fa-calendar-days"></i>Fecha de Nacimiento: 25/07/2000</p>
+                   <p class="p1"><i class="fa-solid fa-phone"></i>Celular: (362)4235146</p>
+                   <p class="p1"><i class="fa-solid fa-envelope"></i>Correo Electrónico: micv@gmail.com</p>
+              </div> 
+              
+              <div class="box1">
+                   <div class="heading">
+                       <p>HABILIDADES</p>
+                   </div>
+
+                   <p class="p1">INGLES (básico)
+                    <div class="skill-container">
+                         <div class="skill ingles"></div>
+                    </div>
+                   </p>
+
+                   <p class="p1">JAVASCRIPT (básico)
+                    <div class="skill-container">
+                         <div class="skill js"></div>
+                    </div>
+                   </p>
+
+                   <p class="p1">HTML (básico)
+                    <div class="skill-container">
+                         <div class="skill html"></div>
+                    </div>
+                   </p>
+
+                   <p class="p1">CSS (básico)
+                    <div class="skill-container">
+                         <div class="skill css"></div>
+                    </div>
+                   </p>     
+              </div>
+              <br>
+              <div class="box1">
+                    <div class="heading">
+                         <p>HOBBIES</p>
+                    </div>
+
+                    <div>
+                         <p class="p1"><i class="fa-solid fa-music"></i>
+                                       <i class="fa-solid fa-futbol"></i>
+                                       <i class="fa-solid fa-film"></i>
+                                       <i class="fa-solid fa-dumbbell"></i>
+                                       <i class="fa-solid fa-bicycle"></i>
+                         </p>
+                    </div>
+              </div>
+
+         </div>
+
+         <div class="right">
+              <div class="nombre">
+                   <h1>Nicolas Matias Neira</h1>
+                   <p>Desarrollo Web Front-End</p>
+              </div>
+               
+              <div class="box2">
+                    <h2>SOBRE MI <i class="fa-solid fa-face-smile" style="font-size: 28px!important;"></i></h2>
+                    <p class="p2">
+                         Soy una persona muy responsable, seria y
+                         positiva con adaptación en trabajar en equipo.
+                         Tengo una actitud alegre y creativa, siempre
+                         ayudo a las personas con lo que sea para aportar
+                         con los conocimientos previos que fui adquiriendo
+                         en mi proceso educativo y me gusta aprender
+                         cosas nuevas de otras personas.
+                    </p>
+              </div>
+
+              <div class="box2">
+                  <h2>EDUCACION <i class="fa-solid fa-graduation-cap" style="font-size: 20px!important;"></i></h2>
+                  <p class="p3"><span>2007-2018</span></p>
+                  <p class="p2">
+                         Estudie en la Escuela Normal Sarmiento Nº87
+                   </p>
+
+                   <button id="boton" onclick="mostrar();">Ver Imagen</button>
+                   <div id="img">
+                        <button id="boton" onclick="ocultar();">Ocultar imagen</button>
+                        <img src="C:\Users\nicol\Desktop\Mi CV en HTML\escuela.jpg" width="300px" alt="">
+                   </div>
+
+                   <script src="js/function.js"></script>
+
+                   <p class="p3"><span>2019-Presente</span></p>
+                   <p class="p2">
+                       Estudiando en la Universidad Tecnologica Nacional
+                       Carrera: Ingenieria en Sistemas de Informacion
+                   </p>
+
+                   <button id="boton" onclick="mostrar2();">Ver Imagen</button>
+                   <div id="img2">
+                        <button id="boton" onclick="ocultar2();">Ocultar imagen</button>
+                        <img src="C:\Users\nicol\Desktop\Mi CV en HTML\universidad.jpg" width="300px" alt="">
+                   </div>
+
+                   <script src="js/function.js"></script>                    
+              </div>
+
+              <div class="box2">
+                  <h2>EXPERIENCIA DE TRABAJO <i class="fa-solid fa-briefcase" style="font-size: 20px!important;"></i></h2>
+                  <p class="p2">
+                      Trabaje en una empresa de desarrollo web, programe aplicaciones y videojuegos.
+                  </p>                     
+              </div>
+         </div>
+
+     </div>
+</body>
+</html>
